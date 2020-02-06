@@ -21,6 +21,10 @@ class App extends Component {
     this.ws.onopen = () => {
       // on connecting, do nothing but log it to the console
       console.log('connected')
+      const uuidv4 = require('uuid/v4');
+      this.setState({
+        wsid: uuidv4()
+      })
     }
     this.ws.onmessage = evt => {
       // on receiving a message, add it to the list of messages
@@ -34,6 +38,7 @@ class App extends Component {
         ws: new WebSocket(URL),
       })
     }
+    
     addResponseMessage("Welcome to the Mount Sinai Personal Care System! Please type in your email address so we can begin.");
   }
 
