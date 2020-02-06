@@ -21,7 +21,7 @@ go run main.go
 
 ## Usage
 
-Open http://localhost:5000 in your favorite browser
+Open http://localhost:3000 in your favorite browser
 
 Click the chat button
 
