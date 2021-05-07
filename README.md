@@ -1,4 +1,4 @@
-# WelcomeBot
+# welcome-bot
 
 YouTube Preview:
 [![Watch the video](https://img.youtube.com/vi/gBcr2lD8utM/maxresdefault.jpg)]([https://www.youtube.com/watch?v=gBcr2lD8utM](https://www.youtube.com/watch?v=gBcr2lD8utM))
